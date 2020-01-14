@@ -1,0 +1,52 @@
+body {
+  background: #355E9C;
+}
+
+body .container {
+  background: #fff;
+  height: 100%;
+  padding: 15px 15px;
+  border-radius: 2px;
+}
+
+header {
+  height: 60px;
+  padding: 5px;
+  background: rgba(101, 111, 202, 0.5);
+  margin-bottom: 0;
+  position: relative;
+}
+
+header #headrow {
+  width: 90%;
+}
+
+header #btn {
+  border: none;
+  background: rgba(0, 0, 0, 0);
+}
+
+header #dark, header #light {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+main article {
+  font-family: 'Montserrat', sans-serif;
+}
+
+main article img {
+  max-width: 90%;
+}
+
+main article h1 {
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'Anton', sans-serif;
+}
+
+hr, #post {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

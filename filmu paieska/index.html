@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <script src="https://kit.fontawesome.com/88307216c0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="sass/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Montserrat&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>thepiratebay.co.uk</title>
+</head>
+<body>
+        <header>
+            <div id="headrow" class="row">
+                    <form class="col-6 form-inline md-form form-sm active-cyan-2 mt-2 d-flex justify-content-center ">
+                <input id = "search" class="form-control form-control-sm mr-3 w-50" type="text" placeholder="Search" aria-label="Search">
+                <button id="btn"><i class="fas fa-search" aria-hidden="true"></i></button>
+            </form>
+            <div class="col-6">
+                <button type="button" id="dark" class="btn btn-dark">Dark</button>
+                <button type="button" id="light" class="btn btn-light">Light</button>
+            </div>
+            </div>
+        
+        
+    </header>
+    <div class="container">
+    <main>
+            <div id="alert" class="alert alert-danger" role="alert">Irasykite filmo pavadinima!</div>
+            <div id="alert2" class="alert alert-danger" role="alert">Filmas Nerastas!</div>
+        <article>
+            <h1 id="name"></h3>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="" id="post" alt="poster">
+            </div>
+            <div class="col-md-6">
+                    <div id="rDate"></div>
+                    <p id="genre"></p>
+                    <p id="actors"></p>
+                    <p id="descr"></p>
+                    <p id="lang"></p>
+                    <p id="awards"></p>
+                    <p id="imdb"></p>
+                    <p id="length"></p>
+                    <p id="director"></p>
+            </div>
+        </div>
+            
+        </article>
+    </main>
+    </div>
+    
+</body>
+<script src="js/app.js"></script>
+</html>
