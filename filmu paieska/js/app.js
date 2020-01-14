@@ -79,7 +79,7 @@ function searchas() {
             dir.textContent = (`Director: ${this.dir}`)
         }
     }
-    
+
     if (film.Error == "Movie not found!") {
         alert2.style.display = "block"
         article.style.display = "none"
@@ -89,6 +89,9 @@ function searchas() {
         article.style.display = "none"
     }
     else {
+        alert.style.display = "none";
+        alert2.style.display = "none";
+        article.style.display = "block"
         let filmFound = new Film(film.Title, film.Poster, film.Released, film.Genre, film.Actors, film.Plot, film.Language, film.Awards, film.imdbRating, film.Runtime, film.Director)
         filmFound.output()
     }
